@@ -1,0 +1,19 @@
+# Example prompts for Sora video generation
+# Lines starting with # are ignored
+# Each line is a separate video prompt
+
+A golden retriever playing in a field of sunflowers at sunset
+Ocean waves crashing against rocky cliffs in slow motion
+A bustling Tokyo street at night with neon lights reflecting on wet pavement
+Northern lights dancing over a frozen lake in Iceland
+A time-lapse of clouds rolling over mountain peaks
+Cherry blossom petals falling in a serene Japanese garden
+A hummingbird hovering near a vibrant red flower
+Underwater scene with colorful tropical fish swimming through coral reef
+A cozy coffee shop interior with steam rising from fresh coffee
+Aerial view of a winding river through a lush green forest
+Fireflies glowing in a dark forest at dusk
+A chef preparing gourmet food in a modern kitchen
+Skateboarder performing tricks in an urban skate park
+Rain droplets creating ripples in a puddle reflecting city lights
+Hot air balloons floating over Cappadocia at sunrise

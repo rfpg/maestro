@@ -1,0 +1,82 @@
+{
+  "timestamp": "2025-11-18T11:41:49.073771",
+  "stats": {
+    "total_requested": 12,
+    "completed": 7,
+    "failed": 5,
+    "total_cost_estimate": 25.200000000000003,
+    "total_seconds_generated": 84
+  },
+  "results": [
+    {
+      "job_id": "video_691c8b0dcdb48191b6c5c02b52569726097a14553d140df3",
+      "prompt": "I had a dream, which was not all a dream. The bright sun was extinguish'd, and the stars Did wander darkling in the eternal space, Rayless, and pathless, and the icy earth Swung blind and blackening in the moonless air",
+      "filepath": "generated_videos/20251118_101821_I_had_a_dream_which_was_not_all_a_dream__1024p_landscape_12s.mp4",
+      "resolution": "1024p_landscape",
+      "duration": 12,
+      "model": "sora-2-pro",
+      "cost_estimate": 3.5999999999999996,
+      "generation_time": 815
+    },
+    {
+      "job_id": "video_691c8e440af48191879b91782762068f0b457b639046ed98",
+      "prompt": "Morn came and went\u2014and came, and brought no day, And men forgot their passions in the dread Of this their desolation",
+      "filepath": "generated_videos/20251118_103144_Morn_came_and_wentand_came_and_brought_n_1024p_landscape_12s.mp4",
+      "resolution": "1024p_landscape",
+      "duration": 12,
+      "model": "sora-2-pro",
+      "cost_estimate": 3.5999999999999996,
+      "generation_time": 796
+    },
+    {
+      "job_id": "video_691c9167632481918c2f1be3ebc1b9d7003c7f689db94d4a",
+      "prompt": "Forests were set on fire\u2014but hour by hour They fell and faded\u2014and the crackling trunks Extinguish'd with a crash\u2014and all was black. The brows of men by the despairing light Wore an unearthly aspect, as by fits The flashes fell upon them",
+      "filepath": "generated_videos/20251118_104528_Forests_were_set_on_firebut_hour_by_hour_1024p_landscape_12s.mp4",
+      "resolution": "1024p_landscape",
+      "duration": 12,
+      "model": "sora-2-pro",
+      "cost_estimate": 3.5999999999999996,
+      "generation_time": 816
+    },
+    {
+      "job_id": "video_691c949d66d08193a3a207da5bbdd1430e71f01f3c9252c9",
+      "prompt": "and then again With curses cast them down upon the dust, And gnash'd their teeth and howl'd: the wild birds shriek'd And, terrified, did flutter on the ground, And flap their useless wings",
+      "filepath": "generated_videos/20251118_105919_and_then_again_With_curses_cast_them_dow_1024p_landscape_12s.mp4",
+      "resolution": "1024p_landscape",
+      "duration": 12,
+      "model": "sora-2-pro",
+      "cost_estimate": 3.5999999999999996,
+      "generation_time": 825
+    },
+    {
+      "job_id": "video_691c97def760819181e0b805225f57b3030ed0bfa88b51b6",
+      "prompt": "All earth was but one thought\u2014and that was death Immediate and inglorious - visualized as desolate medieval Celtic landscape with crumbling castles, twisted iron crosses, ominous storm clouds, ancient glowing runes, dark cinematic Gothic tones",
+      "filepath": "generated_videos/20251118_111224_All_earth_was_but_one_thoughtand_that_wa_1024p_landscape_12s.mp4",
+      "resolution": "1024p_landscape",
+      "duration": 12,
+      "model": "sora-2-pro",
+      "cost_estimate": 3.5999999999999996,
+      "generation_time": 777
+    },
+    {
+      "job_id": "video_691c9af0103081918c52783766c813a7039c5c9a91c8fc08",
+      "prompt": "and the pang Of famine fed upon all entrails\u2014men Died, and their bones were tombless as their flesh",
+      "filepath": "generated_videos/20251118_112632_and_the_pang_Of_famine_fed_upon_all_entr_1024p_landscape_12s.mp4",
+      "resolution": "1024p_landscape",
+      "duration": 12,
+      "model": "sora-2-pro",
+      "cost_estimate": 3.5999999999999996,
+      "generation_time": 839
+    },
+    {
+      "job_id": "video_691c9e3e37008191a56be3dbbf719a6704c6d06a01e9a1ec",
+      "prompt": "but two Of an enormous city did survive, And they were enemies: they met beside The dying embers of an altar-place Where had been heap'd a mass of holy things For an unholy usage",
+      "filepath": "generated_videos/20251118_114018_but_two_Of_an_enormous_city_did_survive__1024p_landscape_12s.mp4",
+      "resolution": "1024p_landscape",
+      "duration": 12,
+      "model": "sora-2-pro",
+      "cost_estimate": 3.5999999999999996,
+      "generation_time": 820
+    }
+  ]
+}
