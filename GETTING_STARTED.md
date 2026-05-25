@@ -1,6 +1,6 @@
-# Getting Started with Sora Video Generator
+# Getting Started with Maestro
 
-This guide will help you start generating videos with OpenAI's Sora API using your ChatGPT Pro subscription.
+Maestro is an agentic media studio: generate video clips with OpenAI's Sora, and produce broadcast-style AI commentary (lead + cockney co-commentator + reactive crowd) over footage. This guide covers the Sora video-generation side; see the README for the `video_commentator.py` commentary tool.
 
 ## Prerequisites
 

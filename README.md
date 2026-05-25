@@ -1,8 +1,20 @@
-# Sora Video Generator
+# Maestro 🎻
 
-A Python script to batch-generate 1080p videos using OpenAI's Sora API, optimized for ChatGPT Pro subscribers.
+An agentic media studio that conducts video and audio into one production.
 
-## Features
+**Two acts:**
+- **🎬 Video generation** — batch-generate 1080p clips with OpenAI's Sora API. (`sora_video_generator.py`)
+- **🎙️ AI commentary** — watch footage and lay on broadcast-style play-by-play: an energetic British lead commentator, a daft cockney co-commentator, and a reactive Premier-League crowd with goal roars — all auto-mixed onto your video. (`video_commentator.py`)
+
+(Jump to the **🎙️ AI commentary** section below for the second act.)
+
+---
+
+## 🎬 Video generation (Sora)
+
+A Python tool to batch-generate 1080p videos using OpenAI's Sora API, optimized for ChatGPT Pro subscribers.
+
+### Features
 
 - Generate high-quality 1080p videos in multiple aspect ratios
 - Batch processing from text file of prompts
@@ -202,6 +214,30 @@ pip install openai>=1.51.0
 - Check platform.openai.com for current API access status
 - API availability may be region-specific
 
+---
+
+## 🎙️ AI commentary (`video_commentator.py`)
+
+Turn raw match footage into a fully commentated highlight reel — an excitable British lead commentator, a daft working-class cockney co-commentator who chimes in during the gaps, and a reactive Premier-League crowd, all mixed onto the video.
+
+```bash
+# Guide-driven: build the commentary from a spoken guide recording (most accurate timing/names)
+python video_commentator.py --video match.mov --guide-audio guide.m4a --keep-original-audio
+
+# Script-driven: pin every line to exact timestamps from an events file
+python video_commentator.py --video match.mov --events events.json --keep-original-audio
+
+# Vision baseline: let a model watch the frames and commentate (no guide needed)
+python video_commentator.py --video match.mov --keep-original-audio
+```
+
+Highlights:
+- **Lead voice** (ElevenLabs) with emotion scaled per moment; **goals shout, misses groan.**
+- **Cockney co-commentator** (ElevenLabs) dropping useless one-liners, one at a time, only in the lead's silent gaps.
+- **Reactive crowd**: a chanting stadium bed, anticipation swells on crosses/shots, roars on goals, groans on misses.
+- **Exact timing**: goals/misses pinned to timestamps; the engine auto-prevents overlapping voices.
+- Needs `OPENAI_API_KEY` (vision/transcription) and `ELEVENLABS_API_KEY` (voices + crowd) in `.env`.
+
 ## License
 
-This is a utility script for personal use with OpenAI's Sora API. Ensure you comply with OpenAI's terms of service and usage policies.
+A utility suite for personal use with OpenAI's Sora & ElevenLabs APIs. Ensure you comply with each provider's terms of service and usage policies.
